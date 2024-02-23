@@ -1,2 +1,24 @@
 
 /* Your CSS Code here. */
+.holder{
+	width:500px;
+	display:grid;
+	border:1px solid aqua;
+	grid-template-columns:repeat(2,200px);
+	grid-template-rows:repeat(2,200px);
+}
+.item{
+	border:1px solid black;
+}
+.item-1{
+	background-color:green;
+}
+.item-2{
+	background-color:yellow;
+}
+.item-3{
+	background-color:red;
+}
+.item-4{
+	background-color:violet;
+}
